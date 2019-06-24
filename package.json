@@ -4,7 +4,8 @@
   "description": "",
   "main": "TestLogger.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run:server": " nodemon testHttp.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,9 @@
   },
   "homepage": "https://github.com/surajkm09/javaScriptPractice#readme",
   "dependencies": {
-    "csv": "^5.1.1"
+    "csv": "^5.1.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.1",
+    "nodemon": "^1.19.1"
   }
 }
