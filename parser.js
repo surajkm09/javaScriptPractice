@@ -23,7 +23,7 @@ parser.on('error',(err)=>{
 
 parser.on('end',()=>{
     console.log('the parser has ended reading ');
-    console.log( output);
+   
     assert.deepEqual(output,[ [ 'suraj', 'kumar' ] ]);
 });
 
