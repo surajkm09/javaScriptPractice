@@ -12,5 +12,5 @@ function printInTwo2(message) {
 
 
 printInTwo2("hello from time out");
+console.log("hello from main progrmam feature 2");
 
-console.log("hello from main program");
