@@ -8,7 +8,6 @@ db.on('error',(error)=>{
 });
 
 
-    console.log('insi');
     var kittySchema = mongoose.Schema({name:String});
     kittySchema.methods.speak =function()
     {
