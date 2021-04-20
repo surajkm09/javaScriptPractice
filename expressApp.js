@@ -10,7 +10,6 @@ app.use('/home',(req,res,next)=>{
 
 
 });
-
 app.get('/home',(req,res,next)=>{
     res.write('i am second get function \n');
     next();
